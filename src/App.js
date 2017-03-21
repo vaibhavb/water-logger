@@ -13,6 +13,7 @@ class App extends Component {
         <p className="App-intro">
          Click the following button when you want to log water.
         </p>
+        <button> Glass Drank!</button>
       </div>
     );
   }
