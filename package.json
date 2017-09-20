@@ -1,11 +1,11 @@
 {
-  "name": "quotes",
+  "name": "water-logger",
   "version": "0.0.1",
   "repository": {
     "type": "git",
     "url": "https://github.com/LeBenLeBen/quotes.git"
   },
-  "homepage": "https://lebenleben.github.io/quotes",
+  "homepage": "https://vaibhavb.github.io/water-logger",
   "license": "MIT",
   "author": "Benoît Burgener",
   "private": true,
