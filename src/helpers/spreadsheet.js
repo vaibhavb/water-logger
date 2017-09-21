@@ -27,8 +27,10 @@ export function load(callback) {
       spreadsheetId: config.spreadsheetId,
       range: 'A2:E'
     }).then((response) => {
+
       const data = response.result.values || [],
             authors = [];
+      console.log(data);
 
       let quotes = data.map((quote, i) => {
         let row = i + 2, // Save row ID fore later update
